@@ -1,65 +1,29 @@
-// This is a static page mocking an "About Us" section for our fake user data
 export default function AboutPage() {
   return (
     <div className="container pt-4">
+      <h2>About Me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
+       I grew up with my sister in Tampa, FL. In that time, I developed a passion for theatre and the arts. My brother and I both pursued classes in theatre during high achool, and were regular participants in our school's theatre program in any way we could.
+
+       After graduating, I enrolled at Rollins College in Orlando, FL, with a bachelor's program to pursue a career as an actor. But while there, I recieved a full liberal arts education in a wide range of subjects and topics. I graduated with a B.A. in 2013, and took up roots in the Orlando area afterward.
+
+       Since graduating, I had been pursuing an acting career, while working various jobs to support myself. Eventually, computer science became one of those jobs, and I spent time educating myself in coding to further develop my skillset.
       </p>
       <section className="features-icons bg-light text-center m-4">
         <div className="container">
           <div className="row p-2">
             <div className="col-lg-4">
-              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-window m-auto text-primary" />
-                </div>
-                <h3>Fully Responsive</h3>
-                <p className="lead mb-0">
-                  This theme will look great on any device, no matter the size!
-                </p>
-              </div>
+              <img src="../../assets/William Portrait Young.jpg" alt="Me in high school, applying stage makeup" height={'400px'}/>
             </div>
             <div className="col-lg-4">
-              <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-layers m-auto text-primary" />
-                </div>
-                <h3>Bootstrap 5 Ready</h3>
-                <p className="lead mb-0">
-                  Featuring the latest build of the new Bootstrap 5 framework!
-                </p>
-              </div>
+          <img src="../../assets/William Portrait College.jpg" alt="My headshot from college" height={'400px'}/>
             </div>
             <div className="col-lg-4">
-              <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                <div className="features-icons-icon d-flex">
-                  <i className="bi-terminal m-auto text-primary" />
-                </div>
-                <h3>Easy to Use</h3>
-                <p className="lead mb-0">
-                  Ready to use with your own content, or customize the source
-                  files!
-                </p>
-              </div>
+           <img src="../../assets/William Portrait Adult.jpg" alt="Me as an adult professional" height={'400px'}/>
             </div>
           </div>
         </div>
       </section>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
-      </p>
     </div>
   );
 }

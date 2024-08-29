@@ -8,7 +8,7 @@ export default function Nav({ links }) {
           </ul>
         </div>
       </div>
-      <div class="col-2 align-self-end">
+      <div className="col-2 align-self-end">
         <h2>William Allred</h2>
       </div>
     </nav>

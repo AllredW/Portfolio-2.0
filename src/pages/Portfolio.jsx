@@ -1,33 +1,71 @@
-import { useState, useEffect } from 'react';
-// Bringing in the required component from 'react-router-dom' for linking between pages and getting the current param variable's value from URL
-import { useParams, Link } from 'react-router-dom';
-
-export default function ProfilePage() {
-  const [user, setUser] = useState({});
-
-  // The useParams hook will yield an object. Its keys match the parameters defined on each route. Its values match the current URL value in those parameter locations
-  const { id } = useParams();
-
-  const fetchData = async () => {
-    const { data } = await API.getSingleUser(id);
-
-    setUser(data);
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
-
+export default function PortfolioPage() {
   return (
     <>
-      <Container>
-        {/* Conditionally render the full profile or a Loading string, depending on whether user data is available */}
-        {user.name ? <Profile user={user} /> : <p>Loading...</p>}
-      </Container>
-      <footer className="profile-footer">
-        {/* Link the user back to the homepage. The to prop is used in place of an href */}
-        <Link to="/">← Go Back</Link>
-      </footer>
+      <h2>Portfolio</h2>
+      <p>
+        Here are some examples of my work. Feel free to take a look over the
+        repositories for these projects, and their deployed applications.
+      </p>
+      <div className="container text-center">
+        <div className="row align-items-end">
+          <div className="col"></div>
+          <div className="card">
+            <img
+              src="../assets/facebook logo.png"
+              alt=""
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h3 className="card-title">Test Title</h3>
+            </div>
+          </div>
+          <div className="col"></div>
+          <div className="card">
+            <img
+              src="../assets/facebook logo.png"
+              alt=""
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h3 className="card-title">Test Title</h3>
+            </div>
+          </div>
+          <div className="col"></div>
+          <div className="card">
+            <img
+              src="../assets/facebook logo.png"
+              alt=""
+              className="card-img-top"
+            />
+            <div className="card-body">
+              <h3 className="card-title">Test Title</h3>
+            </div>
+          </div>
+        </div>
+        <div className="row align-items-end">
+          <div className="col"></div>
+          <div className="card">
+            <img src="../assets/facebook logo.png" alt="" className="card-img-top"/>
+            <div className="card-body">
+              <h3 className="card-title">Test Title</h3>
+            </div>
+          </div>
+          <div className="col"></div>
+          <div className="card">
+            <img src="../assets/facebook logo.png" alt="" className="card-img-top"/>
+            <div className="card-body">
+              <h3 className="card-title">Test Title</h3>
+            </div>
+          </div>
+          <div className="col"></div>
+                   <div className="card">
+            <img src="../assets/facebook logo.png" alt="" className="card-img-top"/>
+            <div className="card-body">
+              <h3 className="card-title">Test Title</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

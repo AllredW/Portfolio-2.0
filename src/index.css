@@ -50,8 +50,8 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.navbar {
-  background-color: #DDD0C8;
+.card {
+  width: 18rem;
 }
 
 footer {
@@ -65,6 +65,14 @@ footer {
 
 .footer-link {
   top: 50%
+}
+
+.linkbox {
+  margin-top: 15px;
+}
+
+.navbar {
+  background-color: #DDD0C8;
 }
 
 .profile-footer {

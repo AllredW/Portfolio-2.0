@@ -8,7 +8,6 @@ import './index.css';
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App';
 import Error from './pages/Error';
-import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import AboutMe from './pages/AboutMe';
 import Resume from './pages/Resume';
@@ -23,11 +22,8 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        path: '/about',
         element: <AboutMe />,
-      },
-      {
-        path: '/home',
-        element: <Home />,
       },
       {
         path: '/portfolio',

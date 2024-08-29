@@ -7,9 +7,6 @@ export default function Nav() {
   return (
     <Navbar
       links={[
-        <Link key={1} className="nav-link" to="/">
-          Home
-        </Link>,
         <Link key={2} className="nav-link" to="/about">
           About Me
         </Link>,

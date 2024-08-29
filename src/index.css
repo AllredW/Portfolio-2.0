@@ -82,6 +82,10 @@ h2 {
   color: #323232;
 }
 
+header {
+  min-height: 100px;
+}
+
 .linkbox {
   margin-top: 15px;
 }

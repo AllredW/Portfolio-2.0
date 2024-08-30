@@ -11,7 +11,7 @@ export default function PortfolioPage() {
           {/* Cards for portfolio projects */}
           <div className="col-4">
             {/* Card 1 */}
-            <div className="card" data-toggle="modal" data-target="#CardModal1">
+            <div className="card">
               <img
                 src="assets/Shelfie Logo Thumb.png"
                 alt=""
@@ -19,51 +19,15 @@ export default function PortfolioPage() {
               />
               <div className="card-body">
                 <h3 className="card-title">Shelfie</h3>
-              </div>
-            </div>
-          </div>
-          {/* Modal Card 1 */}
-          <div
-            class="modal fade"
-            id="CardModal1"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="exampleModalCenterTitle"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">
-                    Modal title
-                  </h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">...</div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    Save changes
-                  </button>
+                <div className="row align-items-end">
+                  <div className="col"><a href="https://github.com/hestrain/Shelfie" class="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://shelfie-53sl.onrender.com" class="btn btn-secondary btn-sm">Deployment</a></div>
                 </div>
               </div>
             </div>
-          </div>
-          {/* Card 2 */}
-          <div className="col-4">
+            </div>
+            {/* Card 2 */}
+            <div className="col-4">
             <div className="card">
               <img
                 src="assets/Employee Tracker Thumb.png"
@@ -72,11 +36,14 @@ export default function PortfolioPage() {
               />
               <div className="card-body">
                 <h3 className="card-title">Employee Database</h3>
+                <div className="row align-items-end">
+                  <div className="col"><a href="https://github.com/AllredW/Employee-Tracker" class="btn btn-secondary btn-sm">Repo</a></div>
+                </div>
               </div>
             </div>
-          </div>
-          {/* Card 3 */}
-          <div className="col-4">
+            </div>
+            {/* Card 3 */}
+            <div className="col-4">
             <div className="card">
               <img
                 src="assets/PWA Text Editor Thumb.png"
@@ -85,11 +52,15 @@ export default function PortfolioPage() {
               />
               <div className="card-body">
                 <h3 className="card-title">PWA Text Editor</h3>
+                <div className="row align-items-end">
+                  <div className="col"><a href="https://github.com/AllredW/PWA-Text-Editor" class="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://pwa-text-editor-kume.onrender.com" class="btn btn-secondary btn-sm">Deployment</a></div>
+                </div>
               </div>
             </div>
-          </div>
-          {/* Card 4 */}
-          <div className="col-4">
+            </div>
+            {/* Card 4 */}
+            <div className="col-4">
             <div className="card">
               <img
                 src="assets\svg-maker-thumb.png"
@@ -98,11 +69,14 @@ export default function PortfolioPage() {
               />
               <div className="card-body">
                 <h3 className="card-title">SVG Logo Creator</h3>
+                <div className="row align-items-end">
+                  <div className="col"><a href="https://github.com/AllredW/svg-logo-maker" class="btn btn-secondary btn-sm">Repo</a></div>
+                </div>
               </div>
             </div>
-          </div>
-          {/* Card 5 */}
-          <div className="col-4">
+            </div>
+            {/* Card 5 */}
+            <div className="col-4">
             <div className="card">
               <img
                 src="assets\Social Network API Thumb.png"
@@ -111,11 +85,14 @@ export default function PortfolioPage() {
               />
               <div className="card-body">
                 <h3 className="card-title">Social Network API</h3>
+                <div className="row align-items-end">
+                  <div className="col"><a href="https://github.com/AllredW/Social-Network-API" class="btn btn-secondary btn-sm">Repo</a></div>
+                </div>
               </div>
             </div>
-          </div>
-          {/* Card 6 */}
-          <div className="col-4">
+            </div>
+            {/* Card 6 */}
+            <div className="col-4">
             <div className="card">
               <img
                 src="assets\Weather Dashboard Thumb.png"
@@ -124,6 +101,10 @@ export default function PortfolioPage() {
               />
               <div className="card-body">
                 <h3 className="card-title">API Weather Dashboard</h3>
+                <div className="row align-items-end">
+                  <div className="col"><a href="https://github.com/AllredW/Weather-Dashboard" class="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://allredw.github.io/Weather-Dashboard/" class="btn btn-secondary btn-sm">Deployment</a></div>
+                </div>
               </div>
             </div>
             {/*  */}

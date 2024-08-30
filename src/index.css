@@ -8,8 +8,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
-  color: pink;
 }
 
 a {
@@ -24,11 +22,17 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #faf8f7;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+.btn-sm {
+  width: 7rem;
+  height: 2rem
 }
 
 button {
@@ -52,7 +56,7 @@ button:focus-visible {
 
 .card {
   width: 18rem;
-  height: 10rem;
+  height: 14rem;
   margin-top: 10px;
   margin-bottom: 10px;
 }

@@ -1,6 +1,7 @@
 export default function PortfolioPage() {
   return (
     <>
+    <div className="pageBody">
       <h2>Portfolio</h2>
       <p>
         Here are some examples of my work. Feel free to take a look over the
@@ -20,8 +21,8 @@ export default function PortfolioPage() {
               <div className="card-body">
                 <h3 className="card-title">Shelfie</h3>
                 <div className="row align-items-end">
-                  <div className="col"><a href="https://github.com/hestrain/Shelfie" class="btn btn-secondary btn-sm">Repo</a></div>
-                  <div className="col"><a href="https://shelfie-53sl.onrender.com" class="btn btn-secondary btn-sm">Deployment</a></div>
+                  <div className="col"><a href="https://github.com/hestrain/Shelfie" className="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://shelfie-53sl.onrender.com" className="btn btn-secondary btn-sm">Deployment</a></div>
                 </div>
               </div>
             </div>
@@ -37,7 +38,7 @@ export default function PortfolioPage() {
               <div className="card-body">
                 <h3 className="card-title">Employee Database</h3>
                 <div className="row align-items-end">
-                  <div className="col"><a href="https://github.com/AllredW/Employee-Tracker" class="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://github.com/AllredW/Employee-Tracker" className="btn btn-secondary btn-sm">Repo</a></div>
                 </div>
               </div>
             </div>
@@ -53,8 +54,8 @@ export default function PortfolioPage() {
               <div className="card-body">
                 <h3 className="card-title">PWA Text Editor</h3>
                 <div className="row align-items-end">
-                  <div className="col"><a href="https://github.com/AllredW/PWA-Text-Editor" class="btn btn-secondary btn-sm">Repo</a></div>
-                  <div className="col"><a href="https://pwa-text-editor-kume.onrender.com" class="btn btn-secondary btn-sm">Deployment</a></div>
+                  <div className="col"><a href="https://github.com/AllredW/PWA-Text-Editor" className="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://pwa-text-editor-kume.onrender.com" className="btn btn-secondary btn-sm">Deployment</a></div>
                 </div>
               </div>
             </div>
@@ -70,7 +71,7 @@ export default function PortfolioPage() {
               <div className="card-body">
                 <h3 className="card-title">SVG Logo Creator</h3>
                 <div className="row align-items-end">
-                  <div className="col"><a href="https://github.com/AllredW/svg-logo-maker" class="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://github.com/AllredW/svg-logo-maker" className="btn btn-secondary btn-sm">Repo</a></div>
                 </div>
               </div>
             </div>
@@ -86,7 +87,7 @@ export default function PortfolioPage() {
               <div className="card-body">
                 <h3 className="card-title">Social Network API</h3>
                 <div className="row align-items-end">
-                  <div className="col"><a href="https://github.com/AllredW/Social-Network-API" class="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://github.com/AllredW/Social-Network-API" className="btn btn-secondary btn-sm">Repo</a></div>
                 </div>
               </div>
             </div>
@@ -102,14 +103,15 @@ export default function PortfolioPage() {
               <div className="card-body">
                 <h3 className="card-title">API Weather Dashboard</h3>
                 <div className="row align-items-end">
-                  <div className="col"><a href="https://github.com/AllredW/Weather-Dashboard" class="btn btn-secondary btn-sm">Repo</a></div>
-                  <div className="col"><a href="https://allredw.github.io/Weather-Dashboard/" class="btn btn-secondary btn-sm">Deployment</a></div>
+                  <div className="col"><a href="https://github.com/AllredW/Weather-Dashboard" className="btn btn-secondary btn-sm">Repo</a></div>
+                  <div className="col"><a href="https://allredw.github.io/Weather-Dashboard/" className="btn btn-secondary btn-sm">Deployment</a></div>
                 </div>
               </div>
             </div>
             {/*  */}
           </div>
         </div>
+      </div>
       </div>
     </>
   );

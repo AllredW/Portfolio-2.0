@@ -98,6 +98,11 @@ header {
   background-color: #DDD0C8;
 }
 
+.pageBody {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .profile-footer {
   text-align: center;
   position: fixed;

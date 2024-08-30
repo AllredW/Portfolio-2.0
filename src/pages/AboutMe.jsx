@@ -1,6 +1,6 @@
 export default function AboutPage() {
   return (
-    <div className="container pt-4">
+    <div className="container pt-4 pageBody">
       <h2>About Me</h2>
       <p>
        I grew up with my sister in Tampa, FL. In that time, I developed a passion for theatre and the arts. My brother and I both pursued classes in theatre during high achool, and were regular participants in our school's theatre program in any way we could.

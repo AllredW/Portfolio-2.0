@@ -14,7 +14,7 @@ export default function PortfolioPage() {
             {/* Card 1 */}
             <div className="card">
               <img
-                src="assets/Shelfie Logo Thumb.png"
+                src="public\assets\Shelfie Logo Thumb.png"
                 alt=""
                 className="card-img-top"
               />
@@ -31,7 +31,7 @@ export default function PortfolioPage() {
             <div className="col-4">
             <div className="card">
               <img
-                src="assets/Employee Tracker Thumb.png"
+                src="public\assets\Employee Tracker Thumb.png"
                 alt=""
                 className="card-img-top"
               />
@@ -47,7 +47,7 @@ export default function PortfolioPage() {
             <div className="col-4">
             <div className="card">
               <img
-                src="assets/PWA Text Editor Thumb.png"
+                src="public\assets\PWA Text Editor Thumb.png"
                 alt=""
                 className="card-img-top"
               />
